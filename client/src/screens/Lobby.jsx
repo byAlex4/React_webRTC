@@ -11,6 +11,7 @@ const LobbyScreen = () => {
 
   const handleSubmitForm = useCallback(
     (e) => {
+      console.log("handleSubmitForm")
       e.preventDefault();
       socket.emit("room:join", { email, room });
     },
@@ -19,6 +20,7 @@ const LobbyScreen = () => {
 
   const handleJoinRoom = useCallback(
     (data) => {
+      console.log("handleJoinRoom")
       const { email, room } = data;
       navigate(`/room/${room}`);
     },

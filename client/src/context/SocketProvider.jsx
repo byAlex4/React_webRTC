@@ -9,7 +9,7 @@ export const useSocket = () => {
 };
 
 export const SocketProvider = (props) => {
-  const socket = useMemo(() => io("localhost:8000"), []);
+  const socket = useMemo(() => io("https://mighty-oasis-96312-f0778e903b79.herokuapp.com"), []);
 
   return (
     <SocketContext.Provider value={socket}>
