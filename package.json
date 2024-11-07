@@ -1,7 +1,0 @@
-{
-    "name": "react-webrtc",
-    "version": "1.0.0",
-    "scripts": {
-        "start:heroku": "cd server && npm install && npm start"
-    }
-}
