@@ -4,6 +4,7 @@ import LobbyScreen from "./screens/Lobby";
 import RoomPage from "./screens/Room";
 
 function App() {
+  console.log("App component");
   return (
     <div className="App">
       <Routes>

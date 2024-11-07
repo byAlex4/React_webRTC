@@ -5,7 +5,7 @@ import { useSocket } from "../context/SocketProvider";
 const LobbyScreen = () => {
   const [email, setEmail] = useState("");
   const [room, setRoom] = useState("");
-
+  console.log("Lobby component");
   const socket = useSocket();
   const navigate = useNavigate();
 
