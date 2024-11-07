@@ -1,1 +1,2 @@
-web: npm run start:heroku
+web: cd server && npm start
+client: cd client && npm start
